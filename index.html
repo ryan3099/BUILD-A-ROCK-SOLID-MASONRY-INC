@@ -1,67 +1,146 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CAP Garland, LLC</title>
+  <title>Build A Rock Solid Masonry Inc.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-      color: #333;
+      font-family: 'Poppins', sans-serif;
+      background-color: #111;
+      color: #eee;
     }
+
     header {
-      background-color: #003366;
-      color: white;
-      padding: 30px 20px;
+      background-color: #000;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: #f44336;
+      font-size: 26px;
+    }
+
+    nav a {
+      color: #eee;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1581091870985-45f4d1e27d4c?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
       text-align: center;
     }
-    section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    h1, h2 {
-      color: #003366;
-    }
-    .contact {
-      background: #fff;
+
+    .hero h2 {
+      font-size: 48px;
+      background-color: rgba(0, 0, 0, 0.6);
       padding: 20px;
-      border-left: 5px solid #003366;
-      margin-top: 30px;
+      border-radius: 10px;
     }
-    footer {
-      background-color: #003366;
-      color: white;
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 32px;
+      color: #f44336;
+      margin-bottom: 30px;
       text-align: center;
-      padding: 15px;
-      margin-top: 50px;
+    }
+
+    .card {
+      background-color: #222;
+      padding: 25px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+
+    .card h3 {
+      color: #f44336;
+      margin-bottom: 10px;
+    }
+
+    .card p, footer p {
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+    .contact-info a {
+      color: #f44336;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #000;
+      text-align: center;
+      padding: 30px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>CAP Garland, LLC</h1>
-    <p>Private Investment Fund</p>
+    <h1>Rock Solid Masonry</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <section>
-    <h2>About Us</h2>
-    <p>CAP Garland, LLC is a Washington-based private investment fund focused on delivering value through diversified investment strategies.</p>
+  <section class="hero">
+    <h2>Strength. Precision. Craftsmanship.</h2>
+  </section>
 
-    <h2>Contact</h2>
-    <div class="contact">
-      <p><strong>Address:</strong> 915 W 2nd Ave, Spokane, WA 99201</p>
-      <p><strong>Email:</strong> <a href="mailto:ryanberg@capgarland.shop">ryanberg@capgarland.shop</a></p>
-      <p><strong>Phone:</strong> (509) 822-3850</p>
+  <section id="about">
+    <h3 class="section-title">About Us</h3>
+    <div class="card">
+      <p>Build A Rock Solid Masonry Inc. is a Utah-based company specializing in masonry services. With years of experience and a reputation built on strength and reliability, we deliver precision stonework and concrete solutions for both commercial and residential projects.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <h3 class="section-title">Our Services</h3>
+    <div class="card">
+      <h3>⛏️ Masonry Construction</h3>
+      <p>Expert stone, block, and brick installations for structural and decorative applications.</p>
+    </div>
+    <div class="card">
+      <h3>⚒️ Concrete Foundations</h3>
+      <p>Reliable concrete pouring and foundation setting to ensure solid building starts.</p>
+    </div>
+    <div class="card">
+      <h3>✅ Repair & Restoration</h3>
+      <p>We restore aged and damaged masonry with precision and attention to detail.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3 class="section-title">Contact</h3>
+    <div class="card contact-info">
+      <p><strong>Email:</strong> <a href="mailto:info@buildarocksolidmasonryinc.in.net">info@buildarocksolidmasonryinc.in.net</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+14408593336">+1 (440) 859-3336</a></p>
+      <p><strong>Location:</strong> Herriman, Utah</p>
     </div>
   </section>
 
   <footer>
-    &copy; 2025 CAP Garland, LLC. All rights reserved.
+    <p>&copy; 2025 Build A Rock Solid Masonry Inc. All rights reserved.</p>
   </footer>
 </body>
 </html>
